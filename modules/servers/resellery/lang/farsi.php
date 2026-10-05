@@ -1,0 +1,50 @@
+<?php
+/**
+ * Persian (Farsi) strings — WHMCS ResellBridge server module (reseller WHMCS).
+ *
+ * @author  Aria Jahangiri Far <https://github.com/MrAriaNet>
+ */
+
+return [
+    'display_name' => 'WHMCS ResellBridge',
+    'remote_product_group' => 'گروه محصول راه دور',
+    'remote_product_group_help' => 'گروه‌های مجاز از WHMCS اصلی (بارگذاری خودکار).',
+    'load_groups' => 'بارگذاری گروه‌ها',
+    'service_type' => 'نوع سرویس',
+    'remote_product' => 'محصول راه دور',
+    'remote_product_help' => 'محصولات گروه‌های انتخاب‌شده / مجاز.',
+    'load_products' => 'بارگذاری محصولات',
+    'sync_custom_fields' => 'همگام‌سازی فیلدهای سفارشی',
+    'fetch_fields' => 'دریافت فیلدها',
+    'start_department' => 'دپارتمان شروع',
+    'start_department_status' => 'وضعیت دپارتمان شروع',
+    'remote_client_id' => 'شناسه مشتری راه دور',
+    'remote_client_id_help' => 'در صورت پر بودن، همه سرویس‌ها زیر همان مشتری در WHMCS اصلی ساخته می‌شوند. در صورت خالی بودن، مشتری بر اساس داده محلی ساخته یا پیدا می‌شود.',
+    'details' => 'جزئیات',
+    'no_remote_mapping' => 'نگاشت سرویس راه دور یافت نشد.',
+    'local_service_missing' => 'سرویس محلی یافت نشد.',
+    'local_client_missing' => 'مشتری محلی یافت نشد.',
+    'server_not_configured' => 'نام میزبان / IP سرور تنظیم نشده است.',
+    'connect_failed' => 'اتصال برقرار نشد',
+    'invalid_json' => 'پاسخ JSON نامعتبر از API اصلی WHMCS.',
+    'check_api' => 'بررسی API',
+    'all_allowed_groups' => 'همه گروه‌های مجاز',
+    'no_products' => 'محصولی در گروه‌های مجاز نیست',
+    'server_not_found' => 'سرور برای گروه سرور انتخاب‌شده یافت نشد.',
+    'failed_load_groups' => 'بارگذاری گروه‌های محصول ناموفق بود.',
+    'failed_load_products' => 'بارگذاری محصولات ناموفق بود.',
+    'failed_fetch_fields' => 'دریافت فیلدهای سفارشی ناموفق بود.',
+    'local_pid_missing' => 'شناسه محصول محلی موجود نیست. ابتدا محصول را ذخیره کنید.',
+    'unexpected_response' => 'پاسخ غیرمنتظره از WHMCS اصلی.',
+    'fields_save_failed' => 'ذخیره فیلدهای سفارشی محلی ناموفق بود.',
+    'fields_synced' => 'فیلدهای سفارشی با موفقیت همگام شدند.',
+    'unknown_action' => 'عملیات ناشناخته.',
+    'server_host_empty' => 'نام میزبان / IP سرور خالی است.',
+    'admin_required' => 'ورود مدیر الزامی است.',
+    'js_unable_groups' => 'امکان بارگذاری گروه‌های محصول نیست.',
+    'js_unable_products' => 'امکان بارگذاری محصولات نیست.',
+    'js_server_missing' => 'سرور یا داده یافت نشد.',
+    'js_server_missing_groups' => 'هنگام بارگذاری گروه‌ها سرور یا داده یافت نشد.',
+    'js_done' => 'انجام شد.',
+    'js_failed' => 'ناموفق.',
+];

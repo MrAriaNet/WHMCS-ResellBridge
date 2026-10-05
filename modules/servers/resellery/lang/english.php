@@ -1,0 +1,50 @@
+<?php
+/**
+ * English strings — WHMCS ResellBridge server module (reseller WHMCS).
+ *
+ * @author  Aria Jahangiri Far <https://github.com/MrAriaNet>
+ */
+
+return [
+    'display_name' => 'WHMCS ResellBridge',
+    'remote_product_group' => 'Remote Product Group',
+    'remote_product_group_help' => 'Allowed groups from the main WHMCS (loaded automatically).',
+    'load_groups' => 'Load Groups',
+    'service_type' => 'Service Type',
+    'remote_product' => 'Remote Product',
+    'remote_product_help' => 'Products from the selected / allowed groups.',
+    'load_products' => 'Load Products',
+    'sync_custom_fields' => 'Sync Custom Fields',
+    'fetch_fields' => 'Fetch Fields',
+    'start_department' => 'Start Department',
+    'start_department_status' => 'Start Department Status',
+    'remote_client_id' => 'Remote Client ID',
+    'remote_client_id_help' => 'If set, all services are created under this client on the main WHMCS. If empty, a matching client is created from the local client data.',
+    'details' => 'Details',
+    'no_remote_mapping' => 'No remote service mapping found.',
+    'local_service_missing' => 'Local service not found.',
+    'local_client_missing' => 'Local client not found.',
+    'server_not_configured' => 'Server hostname/IP is not configured.',
+    'connect_failed' => 'Unable to connect',
+    'invalid_json' => 'Invalid JSON response from main WHMCS API.',
+    'check_api' => 'Check API',
+    'all_allowed_groups' => 'All allowed groups',
+    'no_products' => 'No products in allowed groups',
+    'server_not_found' => 'Server not found for the selected server group.',
+    'failed_load_groups' => 'Failed to load product groups.',
+    'failed_load_products' => 'Failed to load products.',
+    'failed_fetch_fields' => 'Failed to fetch custom fields.',
+    'local_pid_missing' => 'Local product ID is missing. Save the product first.',
+    'unexpected_response' => 'Unexpected response from main WHMCS.',
+    'fields_save_failed' => 'Failed to save custom fields locally.',
+    'fields_synced' => 'Custom fields synced successfully.',
+    'unknown_action' => 'Unknown action.',
+    'server_host_empty' => 'Server hostname/IP is empty.',
+    'admin_required' => 'Admin authentication required.',
+    'js_unable_groups' => 'Unable to load product groups.',
+    'js_unable_products' => 'Unable to load products.',
+    'js_server_missing' => 'Server or data not found.',
+    'js_server_missing_groups' => 'Server or data not found while loading product groups.',
+    'js_done' => 'Done.',
+    'js_failed' => 'Failed.',
+];
